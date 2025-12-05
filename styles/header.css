@@ -1,0 +1,112 @@
+ .search-bar{
+            display: block;
+        }
+  .left-Section {
+  display: flex;
+  align-items: center;        
+  gap: 24px;  
+  margin-left: 10px;
+              
+}
+  .Right-Section{
+    flex-shrink: 0;
+   
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+    gap:25px;
+    margin-right: 25px;
+   
+    
+  }
+  .Middle-Section{
+    flex:1;
+  
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:300px;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    height: 50px;
+    background-color: white;
+    border-bottom-width: 25px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(245, 245, 245);
+  }
+  .hamburger-menu{
+    
+    height: 24px;
+
+  }
+  .ytube-logo{
+   
+    height: 24px;
+
+  }
+  .search-button{
+    height: 43px;
+    width: 70px;
+    margin-left: -1px;
+    margin-right: 10px;
+    
+   
+  }
+  .search-icon{
+    height:25px;
+    margin-top: 3px;
+  }
+  .voice-button{
+    height: 45px;
+   
+    border-radius: 30px;
+    border: none;
+    
+  }
+
+
+  .voice-search-icon{
+    height: 25px;
+    width:30px;
+  
+  }
+  .search-bar{
+    flex:1;
+    height: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(146, 194, 248);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+  }
+  .search-bar::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+  }
+  .upload-icon{
+    height: 25px;
+  }
+  .pic-icon{
+    height: 25px;
+  
+  }
+  .notification-icon{
+    height: 25px;
+  }
+  .app-icon{
+    height:25px;
+  }
+    
+  
+  
